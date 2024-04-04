@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(3, 3, 85);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+
+
+    background: rgb(3, 3, 140);
+    box-shadow: 0 0 30px 5px rgba(201, 227, 238, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+
+
+}
+
+nav ul li a:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+}
+
+@keyframes sh02 {
+    from {
+        opacity: 0;
+        left: 0%;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        left: 100%;
+    }
+}
+
+
+nav ul li:active {
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: box-shadow 0.2s ease-in;
+    -moz-transition: box-shadow 0.2s ease-in;
+    transition: box-shadow 0.2s ease-in;
+}
+
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 99px 0;
+}
+
+.firstsection>div {
+    width: 35%;
+
+}
+
+.leftsection {
+    font-size: 3rem;
+
+}
+
+
+
+.rightsection img {
+    width: 110%;
+
+}
+
+.purple {
+    color: blue;
+}
+
+.text-orange {
+    color: orange;
+}
+
+
+
+#element {
+    color: rgb(10, 150, 29);
+
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+}
+
+
+.first-one {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.second-one {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 101px 84px;
+
+}
+
+.secondsection .box {
+    background: white;
+    width: 2px;
+    height: 66vh;
+    margin: 56px 20px;
+    display: flex;
+}
+
+.secondsection .verticle {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin: 140px 2px;
+
+}
+
+.secondsection .verticle-two {
+    height: 2px;
+    width: 100px;
+    background-color: white;
+    margin: 290px -103px;
+
+}
+
+
+.img-top {
+    width: 122vh;
+
+    position: relative;
+    top: -50vh;
+    left: 90vh;
+}
+
+.verticle-text {
+    position: relative;
+    top: -102vh;
+    width: 150px;
+    left: 20vh;
+
+
+}
+
+.verticle-text-two {
+    position: relative;
+    top: -6vh;
+    width: 150px;
+    left: 20vh;
+
+}
+
+.verticle-desc {
+    position: relative;
+    top: -120vh;
+    left: 49vh;
+    color: orangered;
+    width: 302px;
+    font-size: 15px;
+
+
+}
+
+.verticle-desc-two {
+    position: relative;
+    top: -15vh;
+    left: 49vh;
+    color: orangered;
+    width: 302px;
+    font-size: 15px;
+
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.text-orange-one {
+    position: relative;
+    color: orange;
+    top: -12vh;
+
+}
+
+.thirdsection h1 {
+    position: relative;
+    font-size: 3rem;
+    top: -12vh;
+
+}
+
+.highschool {
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    top: -5vh;
+}
+
+.highschool-info {
+    position: relative;
+    top: -5vh;
+}
+
+.school {
+
+    position: relative;
+    top: -16vh;
+    left: 131vh;
+    height: 33vh;
+    width: 49vh;
+
+}
+
+.intermediate {
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    top: -34vh;
+}
+
+.intermediate-info {
+    position: relative;
+    top: -34vh;
+
+}
+
+.graduation {
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    top: -30vh;
+
+}
+
+.graduation-info {
+    position: relative;
+    top: -31vh;
+
+}
+
+.education p {
+    position: relative;
+    font-size: 1.25rem;
+    top: -31vh;
+
+}
+
+
+
+
+.education-photo {
+    position: relative;
+    top: -121vh;
+    left: 23vh;
+    height: 28vh;
+    width: 39vh;
+}
+
+.skill-box-hori {
+    position: relative;
+    background-color: white;
+    width: 143vh;
+    height: 4px;
+    margin: 12vh 41vh;
+}
+
+.skill-box-hori-one {
+    position: relative;
+    background-color: white;
+    top: 20vh;
+    left: 41vh;
+    height: 2px;
+    width: 143vh;
+
+
+}
+
+.fourthsection h1 {
+    position: relative;
+    top: 6vh;
+    left: 20vh;
+    font-size: 3rem;
+    color: white;
+
+}
+
+.orange-text-five {
+    position: relative;
+    color: orange;
+    top: 7vh;
+    left: 21vh;
+
+
+}
+
+.skills-img {
+    position: relative;
+    top: -8vh;
+    left: 47vh;
+    width: 17vh;
+    height: 11vh;
+}
+
+
+
+
+
+
+.skill-box-ver {
+    position: relative;
+    background-color: white;
+    width: 2px;
+    height: 33vh;
+    margin: -13vh 41vh;
+}
+
+.skill-box-ver-one {
+    position: relative;
+    background-color: white;
+    width: 2px;
+    height: 33vh;
+    margin: -33vh 184vh;
+}
+
+
+.uni-img {
+    position: relative;
+    top: 33vh;
+    left: 93vh;
+    height: 150px;
+
+}
+
+.hori-line {
+    position: relative;
+    background-color: white;
+    height: 19vh;
+    width: 2px;
+    left: 68vh;
+    top: -26vh;
+
+
+}
+
+
+.hori-line-one {
+    position: relative;
+    background-color: white;
+    height: 19vh;
+    width: 2px;
+    left: 96vh;
+    top: -45vh;
+}
+
+.hori-line-two {
+    position: relative;
+    background-color: white;
+    height: 19vh;
+    width: 2px;
+    left: 125vh;
+    top: -64vh;
+
+
+}
+
+.hori-line-three {
+    position: relative;
+    background-color: white;
+    height: 19vh;
+    width: 2px;
+    left: 154vh;
+    top: -83vh;
+
+
+}
+
+
+.hori-line-four {
+    position: relative;
+    background-color: white;
+    height: 14vh;
+    width: 2px;
+    left: 68vh;
+    top: -84vh;
+
+
+}
+
+.hori-line-five {
+    position: relative;
+    background-color: white;
+    height: 14vh;
+    width: 2px;
+    left: 96vh;
+    top: -98vh;
+
+
+}
+
+.hori-line-six {
+    position: relative;
+    background-color: white;
+    height: 14vh;
+    width: 2px;
+    left: 125vh;
+    top: -112vh;
+
+
+}
+
+.hori-line-seven {
+    position: relative;
+    background-color: white;
+    height: 14vh;
+    width: 2px;
+    left: 154vh;
+    top: -126vh;
+
+
+}
+
+
+.ver-line {
+    position: relative;
+    background-color: white;
+    height: 2px;
+    width: 143vh;
+    top: -26vh;
+    left: 41vh;
+}
+
+
+.html-img {
+    position: relative;
+    top: -158vh;
+    left: 45vh;
+    height: 115px;
+}
+
+.css-img {
+    position: relative;
+    top: -158vh;
+    left: 53vh;
+    height: 115px;
+}
+
+.js-img {
+    position: relative;
+    top: -158vh;
+    left: 60vh;
+    height: 115px;
+
+}
+
+.py-img {
+    position: relative;
+    top: -158vh;
+    left: 66vh;
+    height: 115px;
+
+}
+
+.java-img {
+    position: relative;
+    top: -158vh;
+    left: 75vh;
+    height: 115px;
+
+}
+
+.sql-img {
+    position: relative;
+    top: -145vh;
+    left: -62vh;
+    height: 77px;
+
+}
+
+.mongo-img {
+    position: relative;
+    top: -145vh;
+    left: -52vh;
+    height: 76px;
+
+}
+
+.r-img {
+    position: relative;
+    top: -142vh;
+    left: -44vh;
+    height: 111px;
+
+}
+
+
+.node-img {
+    position: relative;
+    top: -144vh;
+    left: -36vh;
+    height: 91px;
+
+}
+
+.c-img {
+    position: relative;
+    top: -145vh;
+    left: -21vh;
+    height: 78px;
+
+}
+
+.third-one {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: -115vh 84px;
+
+}
+
+.text-orange-two {
+    position: relative;
+    color: orange;
+    top: 120vh;
+    left: 20vh;
+
+}
+
+.webdev {
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    top: 125vh;
+    left: 21vh;
+}
+
+.graphicdesign {
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    top: 85vh;
+    left: 21vh;
+
+
+}
+
+.dataana {
+    position: relative;
+    color: red;
+    font-size: 3rem;
+    top: 92vh;
+    left: 21vh;
+
+
+
+
+}
+
+
+
+.fifthsection h1 {
+    position: relative;
+    font-size: 3rem;
+    top: 119vh;
+    left: 20vh;
+}
+
+.first-arrow {
+    position: relative;
+    background-color: rgb(185, 185, 14);
+    height: 2px;
+    width: 30vh;
+    top: -6vh;
+    left: 74vh;
+}
+
+
+.second-arrow {
+    position: relative;
+    background-color:rgb(185, 185, 14);
+    height: 25vh;
+    width: 1px;
+    top: -19vh;
+    left: 89vh;
+}
+
+.third-arrow {
+    position: relative;
+    background-color: rgb(185, 185, 14);
+    height: 3px;
+    width: 15vh;
+    top: -44vh;
+    left: 89vh;
+}
+
+.fourth-arrow {
+    position: relative;
+    background-color: rgb(185, 185, 14);
+    height: 3px;
+    width: 15vh;
+    top: -20vh;
+    left: 89vh;
+
+}
+
+.web-dev-partone{
+    position: relative;
+    font-size: 2rem;
+    top: -49vh;
+    left: 105vh;
+    color: yellow;
+}
+
+.web-dev-parttwo {
+    position: relative;
+    font-size: 2rem;
+    top: -44vh;
+    left: 105vh;
+    color: yellow;
+    
+}
+
+
+.web-dev-partthree {
+    position: relative;
+    font-size: 2rem;
+    top: -40vh;
+    left: 105vh;
+    color: yellow;
+    
+}
+
+.fourthone {
+    position: relative;
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    top: 96vh;
+    width: 100%;
+
+}
+
